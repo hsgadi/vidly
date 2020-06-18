@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import ListGroup from "./common/listgroup";
 import Pagination from "./common/pagination";
 import { getMovies } from "../services/fakeMovieService";
-import { getGenre, getGenres } from "../services/fakeGenreService";
+import { getGenres } from "../services/fakeGenreService";
 import { paginate } from "../utils/paginate";
 import MoviesTable from "./moviesTable";
 import _ from "lodash";
