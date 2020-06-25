@@ -7,10 +7,10 @@ import LoginForm from "./loginForm";
 
 const NavBar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-secondary">
       <Link className="navbar-brand" to="/">
         {" "}
-        Vidly
+        <h2>Movies Collections</h2>
       </Link>
       <button
         className="navbar-toggler"
